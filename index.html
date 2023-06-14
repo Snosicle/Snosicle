@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+
+        <link rel="icon" href="./icon.jpg" type="image/x-icon">
+
+        <link
+            rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap"
+            as="style"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="styles.css" />
+
+        <title>Sweet chills</title>
+    </head>
+
+    <body>
+        <div id="ice-bg">
+            <div class="bg-top">
+                <div class="bg-img">
+                    <img src="./assets/snologo-bg.png" alt="" loading="lazy" />
+                </div>
+                <div class="dropdown" style="z-index: 2">
+                    <button
+                        class="btn"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-list"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                            />
+                        </svg>
+                    </button>
+                    <ul
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton1"
+                    >
+                        <li>
+                            <a class="dropdown-item" href="#products"
+                                >Products</a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#flavours"
+                                >Flavours</a
+                            >
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#contact">Contact</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#follow">Follow</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="img">
+                <img src="./assets/Sno4.png" alt="" loading="lazy" />
+            </div>
+
+            <div
+                id="products"
+                class="top-div"
+                style="background-color: #3fd9b4"
+            >
+                <div class="top-div-wrapper text-center">
+                    <h1 class="add-font heading">Our Products</h1>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="strips">
+                    <img class="" src="./assets/strips/3strips.png" alt="" loading="lazy" />
+                    <img
+                        class="d-block d-md-none"
+                        src="./assets/strips/4strips.png"
+                        alt="" loading="lazy"
+                    />
+                    <img
+                        class="d-block d-md-none"
+                        src="./assets/strips/4strips.png"
+                        alt="" loading="lazy"
+                    />
+                </div>
+                <div class="content my-5">
+                    <div class="row row-cols-1 row-cols-md-2 gy-5">
+                        <div class="col">
+                            <div class="product-card">
+                                <img
+                                    src="./assets/classic.png"
+                                    alt="" loading="lazy"
+                                />
+                                <div class="product-card-body">
+                                    <h2 class="text-center add-font">
+                                        Classic box
+                                    </h2>
+                                    <p class="text-center">
+                                        An ultimate combination of the four
+                                        corners of the country. KK from the
+                                        north, Gulkand from the east Vetiver
+                                        from the south and Aamsul from the west.
+                                        The traditional sips with health
+                                        benefits.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="product-card">
+                                <img
+                                    src="./assets/limited.png"
+                                    alt="" loading="lazy"
+                                />
+                                <div class="product-card-body">
+                                    <h2 class="text-center add-font">
+                                        Limited edition box
+                                    </h2>
+                                    <p class="text-center">
+                                        The cool cousin of the classic box who
+                                        loves everything that's trending. Loves
+                                        a cola masla when hanging with friends,
+                                        ocean lime on the beach, sunny orange
+                                        during trips and aam Panna (just like
+                                        Nani used to make) to beat the heat.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                id="flavours"
+                class="top-div"
+                style="background-color: #3fd9b4"
+            >
+                <div class="top-div-wrapper text-center">
+                    <h1 class="add-font heading">Our Flavours</h1>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="strips">
+                    <img class="" src="./assets/strips/2strips.png" alt="" loading="lazy" />
+                    <img class="" src="./assets/strips/strip1.JPG" alt="" loading="lazy" />
+                    <img
+                        class="d-block d-md-none"
+                        src="./assets/strips/very-long-strip.png"
+                        alt="" loading="lazy"
+                    />
+                </div>
+                <div class="content mt-5">
+                    <div class="row row-cols-1 row-cols-md-3 gy-5">
+                        <div class="col">
+                            <div class="flavour-card">
+                                <img src="./assets/snosicle/7.png" alt="" loading="lazy" />
+                                <h2 class="text-center add-font">
+                                    Kala khatta
+                                </h2>
+                                <p class="text-center">
+                                    Traditional blend of grape juice and masala
+                                    (Lip smacking)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="flavour-card">
+                                <img src="./assets/snosicle/8.png" alt="" loading="lazy" />
+                                <h2 class="text-center add-font">Gulkand</h2>
+                                <p class="text-center">
+                                    Mood changing and cooling blend of rose
+                                    water and rose petals
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="flavour-card">
+                                <img src="./assets/snosicle/5.png" alt="" loading="lazy" />
+                                <h2 class="text-center add-font">Vetiver</h2>
+                                <p class="text-center">
+                                    Nutritious and refreshing Vetiver root blend
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="flavour-card">
+                                <img src="./assets/snosicle/6.png" alt="" loading="lazy" />
+                                <h2 class="text-center add-font">
+                                    Aamsul(Kokum)
+                                </h2>
+                                <p class="text-center">
+                                    A classic tangy blend of kokum and lemon
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="flavour-card">
+                                <img src="./assets/snosicle/2.png" alt="" loading="lazy" />
+                                <h2 class="text-center add-font">
+                                    Cola masala
+                                </h2>
+                                <p class="text-center">
+                                    A jhatka of desi flavour in the videshi
+                                    drink
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="flavour-card">
+                                <img src="./assets/snosicle/4.png" alt="" loading="lazy" />
+                                <h2 class="text-center add-font">Ocean Lime</h2>
+                                <p class="text-center">
+                                    Lime, Lemon and mooooore lemon
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="flavour-card">
+                                <img src="./assets/snosicle/1.png" alt="" loading="lazy" />
+                                <h2 class="text-center add-font">
+                                    Sunny orange
+                                </h2>
+                                <p class="text-center">
+                                    Tangy orange and cooling mint.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="flavour-card">
+                                <img src="./assets/snosicle/3.png" alt="" loading="lazy" />
+                                <h2 class="text-center add-font">Aam Panna</h2>
+                                <p class="text-center">
+                                    Nani ka ultimate Chaska recipe!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="about">
+                <div class="top-div" style="background-color: #82d64c">
+                    <div class="top-div-wrapper text-center">
+                        <h1 class="add-font heading">About Us</h1>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="strips">
+                        <img
+                            class="d-none d-md-block"
+                            src="./assets/strips/strip1.JPG"
+                            alt="" loading="lazy"
+                        />
+                        <img
+                            class="d-block d-md-none"
+                            src="./assets/strips/4strips.png"
+                            alt="" loading="lazy"
+                        />
+                    </div>
+                    <div class="content">
+                        <div class="about-text">
+                            <b>Sweet Chills F&B</b> started on the 3rd of August, 2020.
+                            Founded by two women DIVYA JAIN and RIDHI AGARWAL
+                            who were very keen on revisiting the old school days
+                            with the ice sip-ups, summer afternoons and the fun
+                            times with friends.The regular flavors were
+                            everywhere but the traditional flavors which have
+                            health benefits too were lost in the past.Thus,
+                            SNOSICLE®️ was born with a twist to the classics. It
+                            took 4 months on Research and Development of the
+                            flavors, packaging and branding before we finalized
+                            the fantastic flavours! And finally, on the 6th of
+                            December, 2020, we launched the first <b>SNOSICLE®️</b>
+                            boxes in retail market.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact" class="wrapper">
+                <div class="strips">
+                    <!-- <img class="d-none d-sm-block" src="./assets/strips/strip1.JPG" alt="" loading="lazy" /> -->
+                    <img class="" src="./assets/strips/2strips.png" alt="" loading="lazy" />
+                </div>
+                <div class="content">
+                    <div class="contact">
+                        <div class="contact-bg">
+                            <img src="./assets/SweetChillsLogo.jpg" alt="" loading="lazy" />
+                        </div>
+                        <div class="contact-head add-font">
+                            <h2 class="text-center">
+                                Looking to do business with us ?
+                            </h2>
+                        </div>
+                        <div class="email">
+                            <h3 class="text-center">
+                                <a href="mailto: info.snosicle@gmail.com"
+                                    >info.snosicle@gmail.com</a
+                                >
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="follow" class="wrapper">
+                <div class="strips">
+                    <img
+                        class="d-none d-sm-block"
+                        src="./assets/strips/strip1.JPG"
+                        alt="" loading="lazy"
+                    />
+                    <img
+                        class="d-block d-md-none"
+                        src="./assets/strips/2strips.png"
+                        alt="" loading="lazy"
+                    />
+                </div>
+                <div class="content">
+                    <div class="follow">
+                        <h2 class="add-font text-center">Follow Us</h2>
+
+                        <div class="icons">
+                            <div>
+                                <a
+                                    href="https://m.facebook.com/snosicle/?tsid=0.9138167774242245&source=result"
+                                    ><img src="./assets/fb.png" alt="" loading="lazy" />
+                                </a>
+                                <p class="text-center">@snosicle</p>
+                            </div>
+                            <div>
+                                <a
+                                    href="https://instagram.com/snosicles?utm_medium=copy_link"
+                                    ><img src="./assets/insta.png" alt="" loading="lazy" />
+                                </a>
+                                <p class="text-center">@snosicles</p>
+                            </div>
+                            <div>
+                                <a
+                                    href="https://www.linkedin.com/company/sweet-chills-fnb"
+                                    ><img src="./assets/linkedin.png" alt="" loading="lazy" />
+                                </a>
+                                <p class="text-center">Sweet Chills FnB</p>
+                            </div>
+                        </div>
+
+                        <p class="text-center mt-5">©️ 2020 Snosicle, All Rights Reserved Snosicle Imagery and names are Trademark of Sweet Chills F&B</p>
+                        
+                        <hr>
+
+                        <p class="text-center">
+                            <b>Reserved Terms of use and privacy policy</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="strips">
+                    <!-- <img
+                        class="d-none d-md-block"
+                        src="./assets/strips/strip1.JPG"
+                        alt="" loading="lazy"
+                    /> -->
+                </div>
+                <div class="content">
+                    
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+        <script src="background.js"></script>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#ice-bg {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* padding-bottom: 10rem; */
+}
+#ice-bg::-webkit-scrollbar{
+    width: 15px;
+}
+#ice-bg::-webkit-scrollbar-thumb{
+    background: rgb(251, 255, 0);
+    border-radius: 1rem;
+}
+#ice-bg::-webkit-scrollbar-track{
+    background: none;
+}
+
+.bg-top{
+    position: relative;
+}
+
+.bg-img {
+    width: 100%;
+}
+.bg-img img {
+    width: 100%;
+}
+
+.img img {
+    width: 100%;
+}
+
+.dropdown {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    background-color: transparent;
+}
+
+
+.top-div {
+    height: 50vh;
+    max-height: 700px;
+    background-color: #d2ff73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-div-wrapper {
+    position: relative;
+    height: fit-content;
+}
+
+h1.heading {
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.strips {
+    flex: 1;
+    max-width: 200px;
+    /* height: 50rem; */
+    background-color: white;
+    /* z-index: -2; */
+}
+
+.strips img {
+    width: 100%;
+}
+.add-font {
+    font-family: "Permanent Marker", cursive;
+}
+.content {
+    flex: 6;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+}
+
+.about-text {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+}
+
+.contact {
+    position: relative;
+    margin-top: 20%;
+}
+.contact h2 {
+    font-size: 3rem;
+}
+.contact h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.contact-bg {
+    width: 100%;
+    opacity: 60%;
+}
+.contact-bg img {
+    width: 100%;
+}
+.contact-head {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 100%;
+}
+
+.email {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.follow {
+    width: 100%;
+    /* margin-top: 10%; */
+}
+.follow h2 {
+    font-size: 3rem;
+}
+.icons {
+    width: 100%;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.icons p{
+    font-weight: bold;
+}
+.icons img {
+    width: 8rem;
+    display: block;
+    margin: auto;
+    transition: width 0.5s;
+}
+.icons img:hover {
+    width: 10rem;
+}
+
+.flavour-card {
+    background-color: white;
+}
+.flavour-card img {
+    width: 80%;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+
+    transition: width 0.5s;
+}
+.flavour-card:hover img {
+    width: 100%;
+}
+
+.flavour-card p {
+    font-family: "Roboto", sans-serif;
+    color: gray;
+}
+
+.product-card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    border-top-right-radius: 50%;
+    transition: width 1s;
+}
+.product-card:hover {
+    width: 90%;
+}
+.product-card img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-top-right-radius: 50%;
+    transition: border-radius 0.5s;
+    border-bottom-left-radius: 50%;
+
+    border-bottom: 5px solid orange;
+}
+
+.product-card:hover img{
+    border-radius: 0;
+}
+
+.product-card-body {
+    padding: 10% 1rem 10% 1rem;
+}
+.product-card p {
+    font-family: "Roboto", sans-serif;
+    color: gray;
+}
+
+
+@media only screen and (max-width: 900px) {
+    #ice-bg::-webkit-scrollbar{
+        width: 5px;
+    }
+    .top-div {
+        height: 25vh;
+    }
+    h1.heading {
+        font-size: 2rem;
+    }
+    .product-card {
+        width: 90%;
+    }
+    .about-text {
+        font-size: 1rem;
+    }
+    .contact h2 {
+        font-size: 1rem;
+    }
+    .contact h3 {
+        font-size: 0.8rem;
+        /* font-weight: bold; */
+    }
+    .follow h2 {
+        font-size: 1.5rem;
+    }
+    .icons img {
+        width: 3rem;
+    }
+    .icons img:hover {
+        width: 5rem;
+    }
+    .icons p{
+        font-size: 0.5rem;
+    }
+
+}
